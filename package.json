@@ -30,7 +30,7 @@
     "keyboard"
   ],
   "author": "Nimibyte Labs <info@nimibyte.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nimibyte/shortcuts-hook/issues"
   },
