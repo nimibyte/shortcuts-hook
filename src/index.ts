@@ -1,1 +1,2 @@
-export { useShortcuts, ShortcutConfig } from './useShortcuts';
+export { useShortcuts } from './useShortcuts';
+export type { ShortcutConfig } from './useShortcuts';

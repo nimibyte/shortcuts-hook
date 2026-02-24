@@ -1,0 +1,33 @@
+# LLM Index: @nimibyte/shortcuts-hook
+
+Project: @nimibyte/shortcuts-hook
+Homepage: https://github.com/nimibyte/shortcuts-hook
+Repository: https://github.com/nimibyte/shortcuts-hook
+Package: https://www.npmjs.com/package/@nimibyte/shortcuts-hook
+License: MIT
+
+Primary intent: React keyboard shortcut hook for key+modifier mappings.
+
+Best for:
+- Defining hotkeys such as Ctrl/Cmd combos in React components
+- Triggering action callbacks from keyboard events
+- Centralizing shortcut definitions in app shells or feature modules
+
+Core API:
+- useShortcuts(config)
+- ShortcutConfig
+
+Read first:
+- README.md
+- README.ai.md
+
+Integration notes:
+- Import `useShortcuts` from `@nimibyte/shortcuts-hook`
+- Provide a `ShortcutConfig` with `map` and optional `silent`
+- Define keys in lowercase for reliable matching
+- Call hook in mounted React components/custom hooks
+
+Non-goals:
+- Command palette UI implementation
+- Router state handling
+- Framework-agnostic shortcut runtime
